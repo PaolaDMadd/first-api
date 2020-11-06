@@ -1,0 +1,27 @@
+{
+  "name": "first-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "supertest": "^6.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js",
+    "coverage": "nyc --reporter=text-summary mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
